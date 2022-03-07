@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap");
+
+* {
+  font-family: Sansita Swashed, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+#description {
+  text-align: center;
+  font-size: 1.2rem;
+  position: relative;
+  top: -20px;
+  color: white;
+}
+
+#main {
+  /* background-color: red; */
+}
+
+body {
+  background-color: rgb(139, 13, 123);
+  background: url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+}
+
+p {
+  /* background-color: rgb(218, 218, 218); */
+}
+
+div {
+  background-color: rgb(32, 32, 32);
+  opacity: 90%;
+  text-align: left;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  border-radius: 5px;
+  color: white;
+  padding: 20px;
+}
+
+/* input Box */
+#name {
+  /* background-color: red;
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  left: 1.5rem; */
+}
+
+#name-label {
+  /* background-color: red; */
+  /* font-size: 20px; */
+  /* color: white; */
+  /* opacity: 100%; */
+}
+
+/* Name, Age, Email */
+label {
+  font-size: 1.5rem;
+}
+
+input,
+select {
+  width: 100%;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+#endText {
+  min-height: 120px;
+  width: 100%;
+  /* padding: 0.625rem; */
+  resize: vertical;
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  /* padding: 0.75rem; */
+  background: green;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
